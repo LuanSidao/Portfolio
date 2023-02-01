@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,600&display=swap');
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1767px;
+  display: flex;
+  gap: 1rem;
+  background-color: #22212C;
+}
+
+aside, main {
+  height: 95vh;
+}
+
+aside {
+  flex-basis: 25%;
+}
+
+main {
+  flex-basis: 75%;
+}
+
+profile {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  line-height: 30;
+  border-radius: 15px;
+  position: absolute;
+  border: hidden;
+  width: 359px;
+  height: 296px;
+  top: 30px;
+  left: 40px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+foto {
+  box-sizing: border-box;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 120px;
+  top: 72px;
+  background-image: url(foto1.jpeg.jpg); text-align: center;
+  border: 2px solid #0f0;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+links {
+  position: absolute;
+  border-radius: 15px;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+tecnologias {
+  border-radius: 15px;
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 740px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+
+experiencias {
+  border-radius: 15px;
+  position: absolute;
+  width: 348px;
+  height: 349px;
+  left: 40px;
+  top: 978px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+educacao {
+  border-radius: 15px;
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 740px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+footer {
+  width: 1440px;
+  color: #837E9F;
+  height: 3rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #22212C;
+}
+
+projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 40px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 150px;
+  background-color: #302F3D;
+  cursor: pointer;
+  color: #837E9F;
+}
+
+li {
+  margin-left: 50px;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+a {
+  margin-left: 50px;
+}
+
+name {
+  position: absolute;
+  width: 196px;
+  height: 26px;
+  left: 130px;
+  top: 220px;
+
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  color: #837E9F;
+}
